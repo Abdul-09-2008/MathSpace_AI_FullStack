@@ -1,0 +1,3 @@
+import AppShell from "../../components/AppShell";
+export default function Page(){return <AppShell><main className="content"><div className="eyebrow">MATHSPACE / MODULE</div><h1 className="hero-title">Your <em>profile.</em></h1><p className="sub">Learning progress, level and personal mathematics workspace.</p>
+<div className="panel" style={{marginTop:28}}><div className="notice"><b>Local account</b><br/>Your authenticated user is stored by the backend. Progress, saved answers and tutor history are designed to attach to that user.</div></div></main></AppShell>}

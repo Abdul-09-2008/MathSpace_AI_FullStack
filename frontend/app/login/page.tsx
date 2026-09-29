@@ -1,0 +1,7 @@
+"use client";
+import Link from "next/link"; import {useState} from "react"; import {useRouter} from "next/navigation";
+export default function Login(){
+ const [email,setEmail]=useState(""),[password,setPassword]=useState(""),[msg,setMsg]=useState(""); const router=useRouter();
+ async function submit(e:any){e.preventDefault();setMsg("Signing in…");try{const r=await fetch("http://127.0.0.1:8000/api/auth/login",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email,password})});const d=await r.json();if(!r.ok)throw Error(d.detail||"Login failed");localStorage.setItem("mathspace_user",JSON.stringify(d.user));router.push("/dashboard")}catch(e:any){setMsg(e.message)}}
+ return <main className="auth-page"><section className="auth-card"><div className="brand-lock"><img src="/mathspace-mark.svg"/><h1>Welcome back</h1><p>MATHEMATICS UNIVERSE</p></div><form className="auth-form" onSubmit={submit}><label>Email</label><input type="email" required value={email} onChange={e=>setEmail(e.target.value)} placeholder="you@example.com"/><label>Password</label><input type="password" required value={password} onChange={e=>setPassword(e.target.value)} placeholder="••••••••"/><button className="auth-submit">Log in →</button><div className="auth-note">{msg}</div></form><div className="auth-switch">New to MathSpace? <Link href="/signup">Create an account</Link></div></section></main>
+}

@@ -1,0 +1,10 @@
+# API
+GET /health
+POST /api/auth/signup
+POST /api/auth/login
+GET /api/curriculum/levels
+POST /api/ai/tutor
+POST /api/math/solve
+GET /api/math/formulas
+GET /api/simulation/projectile
+Swagger: /docs

@@ -1,0 +1,3 @@
+import AppShell from "../../components/AppShell";
+export default function Page(){return <AppShell><main className="content"><div className="eyebrow">MATHSPACE / MODULE</div><h1 className="hero-title">System <em>settings.</em></h1><p className="sub">Workspace preferences and configuration.</p>
+<div className="topic-grid" style={{marginTop:28}}>{["Appearance","Learning level","AI provider","Accessibility","Security","Data"].map(x=><article className="topic" key={x}><h3>{x}</h3><p>Settings architecture for the MathSpace platform.</p></article>)}</div></main></AppShell>}

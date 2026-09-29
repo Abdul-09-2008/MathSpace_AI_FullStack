@@ -1,0 +1,3 @@
+import AppShell from "../../components/AppShell";
+export default function Page(){return <AppShell><main className="content"><div className="eyebrow">MATHSPACE / MODULE</div><h1 className="hero-title">Real <em>Data.</em></h1><p className="sub">Upload CSV data, inspect variables, visualize distributions and apply mathematical models.</p>
+<div className="panel" style={{marginTop:28}}><div className="controls"><input type="file" accept=".csv"/></div><div className="notice"><b>Data pipeline</b><br/>CSV → validation → statistics → graph → correlation/regression → mathematical model → result. Uploaded datasets are associated with the authenticated user in the production database design.</div></div></main></AppShell>}

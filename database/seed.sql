@@ -1,0 +1,2 @@
+-- Content seed is intentionally small and verifiable.
+-- The API supplies the starter curriculum.
