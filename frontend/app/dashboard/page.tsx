@@ -2,16 +2,16 @@ import AppShell from "../../components/AppShell";
 import Link from "next/link";
 
 const levels = [
-  "Class 6",
-  "Class 7",
-  "Class 8",
-  "Class 9",
-  "Class 10",
-  "Class 11",
-  "Class 12",
-  "BSc",
-  "MSc",
-  "Research",
+  { name: "Class 6", slug: "class6" },
+  { name: "Class 7", slug: "class7" },
+  { name: "Class 8", slug: "class8" },
+  { name: "Class 9", slug: "class9" },
+  { name: "Class 10", slug: "class10" },
+  { name: "Class 11", slug: "class11" },
+  { name: "Class 12", slug: "class12" },
+  { name: "BSc", slug: "bsc" },
+  { name: "MSc", slug: "msc" },
+  { name: "Research", slug: "research" },
 ];
 
 const modules = [
@@ -63,10 +63,10 @@ export default function Dashboard() {
               <span>10 levels</span>
             </div>
             <div className="level-cards">
-              {levels.map((x) => (
-                <Link href="/concepts" className="level-card" key={x}>
-                  <b>{x}</b>
-                  <small>{x.includes("Class") ? "School" : "Advanced"}</small>
+              {levels.map((lvl) => (
+                <Link href={`/concepts/${lvl.slug}`} className="level-card" key={lvl.slug}>
+                  <b>{lvl.name}</b>
+                  <small>{lvl.name.includes("Class") ? "School" : "Advanced"}</small>
                 </Link>
               ))}
             </div>

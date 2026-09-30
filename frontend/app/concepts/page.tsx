@@ -1,5 +1,5 @@
-import AppShell from "../../components/AppShell";
-export default function Page(){return <AppShell><main className="content"><div className="eyebrow">MATHSPACE / MODULE</div><h1 className="hero-title">Concept <em>Explorer.</em></h1><p className="sub">Move from a topic to concept, formula, application and research.</p>
-<div className="topic-grid" style={{marginTop:28}}>
-{["Algebra","Calculus","Geometry","Probability","Statistics","Linear Algebra","Trigonometry","Differential Equations","Optimization"].map((x,i)=><article className="topic" key={x}><div className="eyebrow">TOPIC {String(i+1).padStart(2,"0")}</div><h3>{x}</h3><p>Explore concepts, equations, examples and real-world mathematical connections.</p><span className="tag">Concepts</span><span className="tag">Formula</span><span className="tag">Applications</span></article>)}
-</div></main></AppShell>}
+import { redirect } from "next/navigation";
+
+export default function ConceptsRootPage() {
+  redirect("/concepts/class6");
+}
