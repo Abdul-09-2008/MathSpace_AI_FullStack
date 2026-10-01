@@ -231,22 +231,22 @@ export default function Chapter1Detail({ onBack }: Chapter1DetailProps) {
 
           <div style={{ display: "flex", flexDirection: "column", gap: "16px", marginTop: "20px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h4 style={{ color: "#38bdf8", margin: "0 0 8px 0" }}>• Triangular Numbers (1, 3, 6, 10, 15...)</h4>
+              <h4 style={{ color: "#38bdf8", margin: "0 0 8px 0" }}>Triangular Numbers (1, 3, 6, 10, 15...)</h4>
               <p style={{ color: "#cbd5e1", margin: 0 }}>Dots can be arranged into filled equilateral triangles[cite: 4].</p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h4 style={{ color: "#38bdf8", margin: "0 0 8px 0" }}>• Square Numbers (1, 4, 9, 16, 25...)</h4>
+              <h4 style={{ color: "#38bdf8", margin: "0 0 8px 0" }}>Square Numbers (1, 4, 9, 16, 25...)</h4>
               <p style={{ color: "#cbd5e1", margin: 0 }}>Dots form square grid arrays with equal rows and columns[cite: 5].</p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h4 style={{ color: "#38bdf8", margin: "0 0 8px 0" }}>• Cube Numbers (1, 8, 27, 64, 125...)</h4>
+              <h4 style={{ color: "#38bdf8", margin: "0 0 8px 0" }}>Cube Numbers (1, 8, 27, 64, 125...)</h4>
               <p style={{ color: "#cbd5e1", margin: 0 }}>Represent 3-dimensional solid cubic blocks of unit cubes[cite: 5].</p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h4 style={{ color: "#38bdf8", margin: "0 0 8px 0" }}>• Hexagonal Numbers (1, 7, 19, 37, 61...)</h4>
+              <h4 style={{ color: "#38bdf8", margin: "0 0 8px 0" }}>Hexagonal Numbers (1, 7, 19, 37, 61...)</h4>
               <p style={{ color: "#cbd5e1", margin: 0 }}>Form nested hexagonal dot rings[cite: 5].</p>
             </div>
 

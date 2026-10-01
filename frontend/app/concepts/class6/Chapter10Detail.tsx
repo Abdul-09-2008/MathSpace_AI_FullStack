@@ -21,7 +21,7 @@ export default function Chapter10Detail({ onBack }: Chapter10DetailProps) {
 
   useEffect(() => {
     markModuleVisited(1);
-  }, []);
+  }, [markModuleVisited]);
 
   const handleTabChange = (newTab: number) => {
     setActiveTab(newTab);

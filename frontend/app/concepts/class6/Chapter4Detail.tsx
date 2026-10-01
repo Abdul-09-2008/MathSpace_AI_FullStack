@@ -64,7 +64,7 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
       >
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px" }}>
           <div style={{ fontSize: "0.8rem", color: "#38bdf8", fontWeight: "bold", letterSpacing: "1px" }}>
-            GANITA PRAXIS CLASS 6 MATHEMATICS[cite: 12]
+            GANITA PRAXIS CLASS 6 MATHEMATICS
           </div>
           <div style={{ fontSize: "0.85rem", color: "#38bdf8", fontWeight: "600" }}>
             {visitedModules.length} of {TOTAL_MODULES} Modules Explored
@@ -72,7 +72,7 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
         </div>
 
         <h1 style={{ fontSize: "2.25rem", margin: "8px 0 16px 0", color: "#ffffff" }}>
-          Chapter 4: Data Handling and Presentation[cite: 12]
+          Chapter 4: Data Handling and Presentation
         </h1>
 
         <ProgressBar percent={progressPercent} size="md" showLabel={false} />
@@ -89,7 +89,7 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
             marginTop: "20px",
           }}
         >
-          <strong style={{ color: "#f8fafc" }}>Course Overview:</strong> We live in an age of information where data is constantly collected and displayed[cite: 12]. This chapter teaches you what data is, how to collect and organize raw information using tally marks and frequency distribution tables, how to present data visually using pictographs and bar graphs, and how aesthetic choices can make graphs clear or misleading[cite: 12].
+          <strong style={{ color: "#f8fafc" }}>Course Overview:</strong> We live in an age of information where data is constantly collected and displayed. This chapter teaches you what data is, how to collect and organize raw information using tally marks and frequency distribution tables, how to present data visually using pictographs and bar graphs, and how aesthetic choices can make graphs clear or misleading.
         </div>
       </div>
 
@@ -149,19 +149,19 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
       {/* Module Content Views */}
       {activeTab === 1 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 1: What is Data & Data Collection?[cite: 12]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 1: What is Data & Data Collection?</h2>
           
           <div style={{ marginBottom: "24px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>1. Definition of Data</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Any collection of facts, numbers, measurements, observations, or descriptions that convey information about things is called data[cite: 12]. For example, a list of your classmates' favourite games, their shoe sizes, or daily vehicle counts on a street are all forms of data[cite: 12].
+              Any collection of facts, numbers, measurements, observations, or descriptions that convey information about things is called data. For example, a list of your classmates' favourite games, their shoe sizes, or daily vehicle counts on a street are all forms of data.
             </p>
           </div>
 
           <div style={{ marginBottom: "24px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>2. Data Collection in Daily Life</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Before making decisions, we collect data[cite: 12]. For example, if a teacher wants to buy sweets for the class, they must collect data on each student's preference (jalebi, gulab jamun, gujiya, barfi, or rasgulla) to buy the exact amounts needed[cite: 12].
+              Before making decisions, we collect data. For example, if a teacher wants to buy sweets for the class, they must collect data on each student's preference (jalebi, gulab jamun, gujiya, barfi, or rasgulla) to buy the exact amounts needed.
             </p>
           </div>
 
@@ -178,24 +178,24 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
                 </thead>
                 <tbody style={{ color: "#cbd5e1" }}>
                   <tr style={{ borderBottom: "1px solid #23272f" }}>
-                    <td style={{ padding: "12px" }}>What is the most popular TV show among classmates?[cite: 12]</td>
-                    <td style={{ padding: "12px", color: "#38bdf8", fontWeight: "bold" }}>YES[cite: 12]</td>
-                    <td style={{ padding: "12px" }}>Requires asking classmates for personal opinions[cite: 12].</td>
+                    <td style={{ padding: "12px" }}>What is the most popular TV show among classmates?</td>
+                    <td style={{ padding: "12px", color: "#38bdf8", fontWeight: "bold" }}>YES</td>
+                    <td style={{ padding: "12px" }}>Requires asking classmates for personal opinions.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid #23272f" }}>
-                    <td style={{ padding: "12px" }}>When did India get independence?[cite: 12]</td>
-                    <td style={{ padding: "12px", color: "#f87171", fontWeight: "bold" }}>NO[cite: 12]</td>
-                    <td style={{ padding: "12px" }}>A fixed historical fact (15 August 1947)[cite: 12].</td>
+                    <td style={{ padding: "12px" }}>When did India get independence?</td>
+                    <td style={{ padding: "12px", color: "#f87171", fontWeight: "bold" }}>NO</td>
+                    <td style={{ padding: "12px" }}>A fixed historical fact (15 August 1947).</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid #23272f" }}>
-                    <td style={{ padding: "12px" }}>How much water is wasted in your locality?[cite: 12]</td>
-                    <td style={{ padding: "12px", color: "#38bdf8", fontWeight: "bold" }}>YES[cite: 12]</td>
-                    <td style={{ padding: "12px" }}>Requires measuring and observing local water usage[cite: 12].</td>
+                    <td style={{ padding: "12px" }}>How much water is wasted in your locality?</td>
+                    <td style={{ padding: "12px", color: "#38bdf8", fontWeight: "bold" }}>YES</td>
+                    <td style={{ padding: "12px" }}>Requires measuring and observing local water usage.</td>
                   </tr>
                   <tr>
-                    <td style={{ padding: "12px" }}>What is the capital of India?[cite: 12]</td>
-                    <td style={{ padding: "12px", color: "#f87171", fontWeight: "bold" }}>NO[cite: 12]</td>
-                    <td style={{ padding: "12px" }}>A known general knowledge fact (New Delhi)[cite: 12].</td>
+                    <td style={{ padding: "12px" }}>What is the capital of India?</td>
+                    <td style={{ padding: "12px", color: "#f87171", fontWeight: "bold" }}>NO</td>
+                    <td style={{ padding: "12px" }}>A known general knowledge fact (New Delhi).</td>
                   </tr>
                 </tbody>
               </table>
@@ -206,31 +206,31 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
 
       {activeTab === 2 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 2: Organising Data - Tally Marks & Frequency Tables[cite: 12]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 2: Organising Data - Tally Marks & Frequency Tables</h2>
 
           <div style={{ marginBottom: "24px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>1. Raw Data vs. Organised Data</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Unorganised or raw data is hard to interpret[cite: 12]. Arranging data in ascending/descending order or grouping it into a frequency table makes it easy to find maximums, minimums, and totals[cite: 12].
+              Unorganised or raw data is hard to interpret. Arranging data in ascending/descending order or grouping it into a frequency table makes it easy to find maximums, minimums, and totals.
             </p>
           </div>
 
           <div style={{ marginBottom: "24px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>2. Tally Marks System</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              To count data quickly without missing any item, we use tally marks[cite: 12]. Each occurrence gets a single vertical stroke '|'[cite: 12]. When the count reaches 5, a diagonal slash is drawn across four vertical strokes (||||) to represent a bundle of 5[cite: 12].
+              To count data quickly without missing any item, we use tally marks. Each occurrence gets a single vertical stroke '|'. When the count reaches 5, a diagonal slash is drawn across four vertical strokes (||||) to represent a bundle of 5.
             </p>
           </div>
 
           <div style={{ marginBottom: "24px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>3. Frequency</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              The frequency of a category is the total number of times that particular value or response occurs[cite: 12].
+              The frequency of a category is the total number of times that particular value or response occurs.
             </p>
           </div>
 
           <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
-            <h4 style={{ color: "#38bdf8", margin: "0 0 12px 0" }}>Example: Sweet Preferences in Class (Shri Nilesh's Class Data)[cite: 12, 13]</h4>
+            <h4 style={{ color: "#38bdf8", margin: "0 0 12px 0" }}>Example: Sweet Preferences in Class (Shri Nilesh's Class Data)</h4>
             <div style={{ overflowX: "auto" }}>
               <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left", fontSize: "0.9rem" }}>
                 <thead>
@@ -241,12 +241,12 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
                   </tr>
                 </thead>
                 <tbody style={{ color: "#cbd5e1" }}>
-                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Jalebi[cite: 13]</td><td style={{ padding: "10px" }}>|||| |[cite: 13]</td><td style={{ padding: "10px" }}>6[cite: 13]</td></tr>
-                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Gulab Jamun[cite: 13]</td><td style={{ padding: "10px" }}>|||| ||||[cite: 13]</td><td style={{ padding: "10px" }}>9[cite: 13]</td></tr>
-                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Gujiya[cite: 13]</td><td style={{ padding: "10px" }}>|||| |||| |||[cite: 13]</td><td style={{ padding: "10px" }}>13[cite: 13]</td></tr>
-                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Barfi[cite: 13]</td><td style={{ padding: "10px" }}>|||[cite: 13]</td><td style={{ padding: "10px" }}>3[cite: 13]</td></tr>
-                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Rasgulla[cite: 13]</td><td style={{ padding: "10px" }}>|||| ||[cite: 13]</td><td style={{ padding: "10px" }}>7[cite: 13]</td></tr>
-                  <tr style={{ fontWeight: "bold", color: "#ffffff" }}><td style={{ padding: "10px" }}>Total[cite: 13]</td><td style={{ padding: "10px" }}>—</td><td style={{ padding: "10px" }}>38[cite: 13]</td></tr>
+                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Jalebi</td><td style={{ padding: "10px" }}>|||| |</td><td style={{ padding: "10px" }}>6</td></tr>
+                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Gulab Jamun</td><td style={{ padding: "10px" }}>|||| ||||</td><td style={{ padding: "10px" }}>9</td></tr>
+                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Gujiya</td><td style={{ padding: "10px" }}>|||| |||| |||</td><td style={{ padding: "10px" }}>13</td></tr>
+                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Barfi</td><td style={{ padding: "10px" }}>|||</td><td style={{ padding: "10px" }}>3</td></tr>
+                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Rasgulla</td><td style={{ padding: "10px" }}>|||| ||</td><td style={{ padding: "10px" }}>7</td></tr>
+                  <tr style={{ fontWeight: "bold", color: "#ffffff" }}><td style={{ padding: "10px" }}>Total</td><td style={{ padding: "10px" }}>—</td><td style={{ padding: "10px" }}>38</td></tr>
                 </tbody>
               </table>
             </div>
@@ -256,31 +256,31 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
 
       {activeTab === 3 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 3: Pictographs - Representing Data Through Pictures[cite: 13]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 3: Pictographs - Representing Data Through Pictures</h2>
 
           <div style={{ marginBottom: "20px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>1. What is a Pictograph?</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              A pictograph represents data visually using pictures or symbols of objects instead of raw numbers[cite: 13]. It allows readers to understand comparisons and trends at a quick glance[cite: 13].
+              A pictograph represents data visually using pictures or symbols of objects instead of raw numbers. It allows readers to understand comparisons and trends at a quick glance.
             </p>
           </div>
 
           <div style={{ marginBottom: "20px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>2. Scale or Key</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Every pictograph must specify a scale or key showing what each symbol represents[cite: 13]. A single symbol can represent 1 unit or multiple units (e.g., 1 symbol = 5 students, 100 kites, or 6 dogs)[cite: 13].
+              Every pictograph must specify a scale or key showing what each symbol represents. A single symbol can represent 1 unit or multiple units (e.g., 1 symbol = 5 students, 100 kites, or 6 dogs).
             </p>
           </div>
 
           <div style={{ marginBottom: "24px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>3. Partial Symbols</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              When data values are not exact multiples of the scale, partial symbols are used (e.g., if 1 symbol = 10 children, a half symbol represents 5 children)[cite: 13]. However, if numbers are not convenient fractions (like 27 or 33), pictographs become difficult to draw accurately[cite: 13].
+              When data values are not exact multiples of the scale, partial symbols are used (e.g., if 1 symbol = 10 children, a half symbol represents 5 children). However, if numbers are not convenient fractions (like 27 or 33), pictographs become difficult to draw accurately.
             </p>
           </div>
 
           <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
-            <h4 style={{ color: "#38bdf8", margin: "0 0 12px 0" }}>Example: Kite Sales by Shopkeepers (Scale: 1 Kite Symbol = 100 Kites)[cite: 13]</h4>
+            <h4 style={{ color: "#38bdf8", margin: "0 0 12px 0" }}>Example: Kite Sales by Shopkeepers (Scale: 1 Kite Symbol = 100 Kites)</h4>
             <div style={{ overflowX: "auto" }}>
               <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left", fontSize: "0.9rem" }}>
                 <thead>
@@ -291,12 +291,12 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
                   </tr>
                 </thead>
                 <tbody style={{ color: "#cbd5e1" }}>
-                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Chaman[cite: 13]</td><td style={{ padding: "10px" }}>250[cite: 13]</td><td style={{ padding: "10px" }}>2 Full + 1 Half Symbol[cite: 13]</td></tr>
-                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Rani[cite: 13]</td><td style={{ padding: "10px" }}>300[cite: 13]</td><td style={{ padding: "10px" }}>3 Full Symbols[cite: 13]</td></tr>
-                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Rukhsana[cite: 13]</td><td style={{ padding: "10px" }}>100[cite: 13]</td><td style={{ padding: "10px" }}>1 Full Symbol[cite: 13]</td></tr>
-                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Jasmeet[cite: 13]</td><td style={{ padding: "10px" }}>450[cite: 13]</td><td style={{ padding: "10px" }}>4 Full + 1 Half Symbol[cite: 13]</td></tr>
-                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Jetha Lal[cite: 13]</td><td style={{ padding: "10px" }}>250[cite: 13]</td><td style={{ padding: "10px" }}>2 Full + 1 Half Symbol[cite: 13]</td></tr>
-                  <tr><td style={{ padding: "10px" }}>Poonam Ben[cite: 13]</td><td style={{ padding: "10px" }}>700[cite: 13]</td><td style={{ padding: "10px" }}>7 Full Symbols[cite: 13]</td></tr>
+                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Chaman</td><td style={{ padding: "10px" }}>250</td><td style={{ padding: "10px" }}>2 Full + 1 Half Symbol</td></tr>
+                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Rani</td><td style={{ padding: "10px" }}>300</td><td style={{ padding: "10px" }}>3 Full Symbols</td></tr>
+                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Rukhsana</td><td style={{ padding: "10px" }}>100</td><td style={{ padding: "10px" }}>1 Full Symbol</td></tr>
+                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Jasmeet</td><td style={{ padding: "10px" }}>450</td><td style={{ padding: "10px" }}>4 Full + 1 Half Symbol</td></tr>
+                  <tr style={{ borderBottom: "1px solid #23272f" }}><td style={{ padding: "10px" }}>Jetha Lal</td><td style={{ padding: "10px" }}>250</td><td style={{ padding: "10px" }}>2 Full + 1 Half Symbol</td></tr>
+                  <tr><td style={{ padding: "10px" }}>Poonam Ben</td><td style={{ padding: "10px" }}>700</td><td style={{ padding: "10px" }}>7 Full Symbols</td></tr>
                 </tbody>
               </table>
             </div>
@@ -306,19 +306,19 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
 
       {activeTab === 4 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 4: Bar Graphs - Construction & Scale Selection[cite: 13, 14]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 4: Bar Graphs - Construction & Scale Selection</h2>
 
           <div style={{ marginBottom: "20px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>1. What is a Bar Graph?</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              A bar graph displays data using rectangular bars of uniform width drawn with equal spacing between them[cite: 13]. The length or height of each bar is proportional to the frequency of that category[cite: 13].
+              A bar graph displays data using rectangular bars of uniform width drawn with equal spacing between them. The length or height of each bar is proportional to the frequency of that category.
             </p>
           </div>
 
           <div style={{ marginBottom: "20px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>2. Vertical vs. Horizontal Bars</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Bars can be drawn vertically (column graphs) or horizontally[cite: 13]. Vertical bars are best for vertical quantities like heights, mountain elevations, or counts[cite: 13]. Horizontal bars suit horizontal quantities like river lengths[cite: 13].
+              Bars can be drawn vertically (column graphs) or horizontally. Vertical bars are best for vertical quantities like heights, mountain elevations, or counts. Horizontal bars suit horizontal quantities like river lengths.
             </p>
           </div>
 
@@ -328,16 +328,16 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
 
           <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "12px 16px", borderRadius: "8px", color: "#cbd5e1" }}>
-              <strong style={{ color: "#38bdf8" }}>Step 1: Draw Axes:</strong> Draw two perpendicular lines—a horizontal axis for categories and a vertical axis for frequencies[cite: 13, 14].
+              <strong style={{ color: "#38bdf8" }}>Step 1: Draw Axes:</strong> Draw two perpendicular lines—a horizontal axis for categories and a vertical axis for frequencies.
             </div>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "12px 16px", borderRadius: "8px", color: "#cbd5e1" }}>
-              <strong style={{ color: "#38bdf8" }}>Step 2: Choose Scale:</strong> Select a scale (e.g., 1 unit length = 10 runs, or 1 unit length = 100 vehicles) so the highest frequency fits nicely on the paper[cite: 14].
+              <strong style={{ color: "#38bdf8" }}>Step 2: Choose Scale:</strong> Select a scale (e.g., 1 unit length = 10 runs, or 1 unit length = 100 vehicles) so the highest frequency fits nicely on the paper.
             </div>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "12px 16px", borderRadius: "8px", color: "#cbd5e1" }}>
-              <strong style={{ color: "#38bdf8" }}>Step 3: Draw Bars:</strong> Draw rectangular bars of uniform width for each category, keeping equal gaps between adjacent bars[cite: 14].
+              <strong style={{ color: "#38bdf8" }}>Step 3: Draw Bars:</strong> Draw rectangular bars of uniform width for each category, keeping equal gaps between adjacent bars.
             </div>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "12px 16px", borderRadius: "8px", color: "#cbd5e1" }}>
-              <strong style={{ color: "#38bdf8" }}>Step 4: Label & Title:</strong> Label both axes clearly and add a title describing what the graph represents[cite: 14].
+              <strong style={{ color: "#38bdf8" }}>Step 4: Label & Title:</strong> Label both axes clearly and add a title describing what the graph represents.
             </div>
           </div>
         </section>
@@ -345,26 +345,26 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
 
       {activeTab === 5 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 5: Aesthetics, Infographics & Avoiding Misleading Visuals[cite: 14]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 5: Aesthetics, Infographics & Avoiding Misleading Visuals</h2>
 
           <div style={{ marginBottom: "20px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>1. Aesthetics in Presentation</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Choosing appropriate scales, colors, and layout orientation makes data visually appealing and intuitive[cite: 14]. For example, mountain heights are naturally represented by vertical columns growing upward like mountains[cite: 14].
+              Choosing appropriate scales, colors, and layout orientation makes data visually appealing and intuitive. For example, mountain heights are naturally represented by vertical columns growing upward like mountains.
             </p>
           </div>
 
           <div style={{ marginBottom: "20px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>2. What is an Infographic?</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Information graphics (infographics) are data visualizations enhanced with artistic imagery and graphic design to communicate complex information clearly and engagingly[cite: 14].
+              Information graphics (infographics) are data visualizations enhanced with artistic imagery and graphic design to communicate complex information clearly and engagingly.
             </p>
           </div>
 
           <div>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>3. Avoiding Misleading Graphs</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              While making presentations visually creative, we must ensure that pictures and scales do not distort facts or mislead the audience[cite: 14]. Scales must always start at 0 and maintain uniform increments[cite: 14].
+              While making presentations visually creative, we must ensure that pictures and scales do not distort facts or mislead the audience. Scales must always start at 0 and maintain uniform increments.
             </p>
           </div>
         </section>
@@ -372,40 +372,40 @@ export default function Chapter4Detail({ onBack }: Chapter4DetailProps) {
 
       {activeTab === 6 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 6: Practice & Exercise Vault[cite: 14]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 6: Practice & Exercise Vault</h2>
           <p style={{ color: "#cbd5e1", lineHeight: "1.6", marginBottom: "20px" }}>
-            Review solved textbook challenges and real-world case studies[cite: 14]:
+            Review solved textbook challenges and real-world case studies:
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
             {/* Exercise 1 */}
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 10px 0" }}>
-                Exercise 1: Jaspreet Bumrah's Wicket Analysis[cite: 14]
+                Exercise 1: Jaspreet Bumrah's Wicket Analysis
               </h4>
               <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.6" }}>
-                Faiz prepared a frequency table of wickets taken by Jaspreet Bumrah in 30 matches: Wickets [0, 1, 2, 3, 4, 5, 6, 7] with Matches [2, 4, 6, 8, 3, 5, 1, 1][cite: 14].
+                Faiz prepared a frequency table of wickets taken by Jaspreet Bumrah in 30 matches: Wickets [0, 1, 2, 3, 4, 5, 6, 7] with Matches [2, 4, 6, 8, 3, 5, 1, 1].
               </p>
               <div style={{ color: "#f8fafc", background: "#0f172a", padding: "12px", borderRadius: "6px", marginTop: "10px", fontSize: "0.9rem" }}>
-                <strong>Question:</strong> Mayank says 'To find total wickets, add 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7'. Is he right?[cite: 14]
+                <strong>Question:</strong> Mayank says 'To find total wickets, add 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7'. Is he right?
               </div>
               <div style={{ color: "#38bdf8", background: "#06283d", padding: "12px", borderRadius: "6px", marginTop: "10px", fontSize: "0.9rem", lineHeight: "1.6" }}>
-                <strong>Solution:</strong> No! Mayank is incorrect[cite: 14]. To find total wickets, multiply each wicket count by its match frequency and sum the products: (0×2) + (1×4) + (2×6) + (3×8) + (4×3) + (5×5) + (6×1) + (7×1) = 0 + 4 + 12 + 24 + 12 + 25 + 6 + 7 = <strong>90 wickets total</strong>[cite: 14].
+                <strong>Solution:</strong> No! Mayank is incorrect. To find total wickets, multiply each wicket count by its match frequency and sum the products: (0×2) + (1×4) + (2×6) + (3×8) + (4×3) + (5×5) + (6×1) + (7×1) = 0 + 4 + 12 + 24 + 12 + 25 + 6 + 7 = <strong>90 wickets total</strong>.
               </div>
             </div>
 
             {/* Exercise 2 */}
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 10px 0" }}>
-                Real-World Case Study: Exercise 2: Mudhol Hounds Dog Survey (Karnataka)[cite: 14]
+                Real-World Case Study: Exercise 2: Mudhol Hounds Dog Survey (Karnataka)
               </h4>
               <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.6" }}>
-                Number of dogs in 6 villages: Village A: 18, B: 36, C: 12, D: 48, E: 18, F: 24[cite: 14].
+                Number of dogs in 6 villages: Village A: 18, B: 36, C: 12, D: 48, E: 18, F: 24.
               </p>
               <ul style={{ color: "#cbd5e1", fontSize: "0.9rem", lineHeight: "1.6", paddingLeft: "20px", marginTop: "10px" }}>
-                <li><strong>a. Useful Scale:</strong> Choose 1 symbol = 6 dogs (since all numbers are multiples of 6)[cite: 14].</li>
-                <li><strong>b. Symbols for Village B:</strong> 36 ÷ 6 = 6 symbols[cite: 14].</li>
-                <li><strong>c. Comparison:</strong> Village B + D = 36 + 48 = 84 dogs. Other 4 villages = 18 + 12 + 18 + 24 = 72 dogs. Since 84 &gt; 72, Kamini is correct![cite: 14]</li>
+                <li><strong>a. Useful Scale:</strong> Choose 1 symbol = 6 dogs (since all numbers are multiples of 6).</li>
+                <li><strong>b. Symbols for Village B:</strong> 36 ÷ 6 = 6 symbols.</li>
+                <li><strong>c. Comparison:</strong> Village B + D = 36 + 48 = 84 dogs. Other 4 villages = 18 + 12 + 18 + 24 = 72 dogs. Since 84 &gt; 72, Kamini is correct!</li>
               </ul>
             </div>
           </div>

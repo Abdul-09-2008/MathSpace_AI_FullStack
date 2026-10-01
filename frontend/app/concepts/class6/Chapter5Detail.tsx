@@ -64,7 +64,7 @@ export default function Chapter5Detail({ onBack }: Chapter5DetailProps) {
       >
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px" }}>
           <div style={{ fontSize: "0.8rem", color: "#38bdf8", fontWeight: "bold", letterSpacing: "1px" }}>
-            GANITA PRAKASH CLASS 6 MATHEMATICS: CHAPTER 5[cite: 15]
+            GANITA PRAKASH CLASS 6 MATHEMATICS: CHAPTER 5
           </div>
           <div style={{ fontSize: "0.85rem", color: "#38bdf8", fontWeight: "600" }}>
             {visitedModules.length} of {TOTAL_MODULES} Modules Explored
@@ -72,7 +72,7 @@ export default function Chapter5Detail({ onBack }: Chapter5DetailProps) {
         </div>
 
         <h1 style={{ fontSize: "2.25rem", margin: "8px 0 16px 0", color: "#ffffff" }}>
-          Chapter 5: Prime Time - Complete Master Course[cite: 15]
+          Chapter 5: Prime Time - Complete Master Course
         </h1>
 
         <ProgressBar percent={progressPercent} size="md" showLabel={false} />
@@ -89,7 +89,7 @@ export default function Chapter5Detail({ onBack }: Chapter5DetailProps) {
             marginTop: "20px",
           }}
         >
-          <strong style={{ color: "#f8fafc" }}>Teacher's Welcome:</strong> Welcome to Chapter 5! Prime numbers are the fundamental building blocks of all whole numbers[cite: 15]. In this chapter, we explore multiples, factors, prime and composite numbers, the Sieve of Eratosthenes, co-primes, and unique prime factorization through engaging games and visual puzzles[cite: 15].
+          <strong style={{ color: "#f8fafc" }}>Teacher's Welcome:</strong> Welcome to Chapter 5! Prime numbers are the fundamental building blocks of all whole numbers. In this chapter, we explore multiples, factors, prime and composite numbers, the Sieve of Eratosthenes, co-primes, and unique prime factorization through engaging games and visual puzzles.
         </div>
       </div>
 
@@ -148,38 +148,38 @@ export default function Chapter5Detail({ onBack }: Chapter5DetailProps) {
       {/* Module Content Views */}
       {activeTab === 1 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 1: Multiples, Factors & Interactive Games[cite: 15]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 1: Multiples, Factors & Interactive Games</h2>
           
           <p style={{ color: "#cbd5e1", lineHeight: "1.6", marginBottom: "20px" }}>
-            Multiples and factors describe how numbers relate through multiplication and division[cite: 15]:
+            Multiples and factors describe how numbers relate through multiplication and division:
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>• Multiples & The 'Idli-Vada' Game</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>Multiples & The 'Idli-Vada' Game</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                Multiples of 3 trigger 'Idli' (3, 6, 9, 12...), multiples of 5 trigger 'Vada' (5, 10, 15, 20...), and common multiples trigger 'Idli-Vada' (15, 30, 45, 60...)[cite: 15].
+                Multiples of 3 trigger 'Idli' (3, 6, 9, 12...), multiples of 5 trigger 'Vada' (5, 10, 15, 20...), and common multiples trigger 'Idli-Vada' (15, 30, 45, 60...).
               </p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>• Factors & Divisors ('Jump Jackpot' Game)</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>Factors & Divisors ('Jump Jackpot' Game)</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                A factor divides a number exactly without a remainder[cite: 15]. To land on target 24, successful jump sizes are its factors: 1, 2, 3, 4, 6, 8, 12, and 24[cite: 15].
+                A factor divides a number exactly without a remainder. To land on target 24, successful jump sizes are its factors: 1, 2, 3, 4, 6, 8, 12, and 24.
               </p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>• Common Factors</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>Common Factors</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                Numbers that divide two or more target numbers[cite: 15]. For 14 and 36, common factors are 1 and 2[cite: 15]. For 28 and 70, common factors are 1, 2, 7, and 14[cite: 15].
+                Numbers that divide two or more target numbers. For 14 and 36, common factors are 1 and 2. For 28 and 70, common factors are 1, 2, 7, and 14.
               </p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>• Perfect Numbers</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>Perfect Numbers</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                A number for which the sum of all its factors equals twice the number itself[cite: 15]. Example: 6 (factors 1, 2, 3, 6; sum = 12) and 28 (factors 1, 2, 4, 7, 14, 28; sum = 56)[cite: 15].
+                A number for which the sum of all its factors equals twice the number itself. Example: 6 (factors 1, 2, 3, 6; sum = 12) and 28 (factors 1, 2, 4, 7, 14, 28; sum = 56).
               </p>
             </div>
           </div>
@@ -188,10 +188,10 @@ export default function Chapter5Detail({ onBack }: Chapter5DetailProps) {
 
       {activeTab === 2 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 2: Prime vs. Composite Numbers & Sieve of Eratosthenes[cite: 15, 16]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 2: Prime vs. Composite Numbers & Sieve of Eratosthenes</h2>
 
           <p style={{ color: "#cbd5e1", lineHeight: "1.6", marginBottom: "20px" }}>
-            Arranging items into rectangular arrays reveals the structural differences between numbers[cite: 15]:
+            Arranging items into rectangular arrays reveals the structural differences between numbers:
           </p>
 
           <div style={{ overflowX: "auto", marginBottom: "28px" }}>
@@ -199,46 +199,46 @@ export default function Chapter5Detail({ onBack }: Chapter5DetailProps) {
               <thead>
                 <tr style={{ background: "#1e293b", color: "#38bdf8", borderBottom: "2px solid #334155" }}>
                   <th style={{ padding: "12px" }}>Property/Category</th>
-                  <th style={{ padding: "12px" }}>Prime Numbers[cite: 15]</th>
-                  <th style={{ padding: "12px" }}>Composite Numbers[cite: 15]</th>
+                  <th style={{ padding: "12px" }}>Prime Numbers</th>
+                  <th style={{ padding: "12px" }}>Composite Numbers</th>
                 </tr>
               </thead>
               <tbody style={{ color: "#cbd5e1" }}>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Definition[cite: 15]</td>
-                  <td style={{ padding: "12px" }}>Numbers with EXACTLY two factors (1 and itself)[cite: 15]</td>
-                  <td style={{ padding: "12px" }}>Numbers with MORE than two factors[cite: 15]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Definition</td>
+                  <td style={{ padding: "12px" }}>Numbers with EXACTLY two factors (1 and itself)</td>
+                  <td style={{ padding: "12px" }}>Numbers with MORE than two factors</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Examples[cite: 15]</td>
-                  <td style={{ padding: "12px" }}>2, 3, 5, 7, 11, 13, 17, 19, 23, 29...[cite: 15]</td>
-                  <td style={{ padding: "12px" }}>4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20...[cite: 15]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Examples</td>
+                  <td style={{ padding: "12px" }}>2, 3, 5, 7, 11, 13, 17, 19, 23, 29...</td>
+                  <td style={{ padding: "12px" }}>4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20...</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Array Shapes[cite: 15]</td>
-                  <td style={{ padding: "12px" }}>Can only be arranged in 1 single row or 1 column[cite: 15]</td>
-                  <td style={{ padding: "12px" }}>Can be arranged in multiple rectangular grid shapes[cite: 15]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Array Shapes</td>
+                  <td style={{ padding: "12px" }}>Can only be arranged in 1 single row or 1 column</td>
+                  <td style={{ padding: "12px" }}>Can be arranged in multiple rectangular grid shapes</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Special Rules[cite: 15]</td>
-                  <td style={{ padding: "12px" }}>2 is the ONLY even prime number[cite: 15]</td>
-                  <td style={{ padding: "12px" }}>1 is NEITHER prime NOR composite (only 1 factor)[cite: 15]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Special Rules</td>
+                  <td style={{ padding: "12px" }}>2 is the ONLY even prime number</td>
+                  <td style={{ padding: "12px" }}>1 is NEITHER prime NOR composite (only 1 factor)</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
-            <h3 style={{ color: "#38bdf8", fontSize: "1.1rem", marginTop: 0 }}>The Sieve of Eratosthenes (Step-by-Step)[cite: 16]</h3>
+            <h3 style={{ color: "#38bdf8", fontSize: "1.1rem", marginTop: 0 }}>The Sieve of Eratosthenes (Step-by-Step)</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Developed over 2,200 years ago by Greek mathematician Eratosthenes to list all prime numbers up to 100[cite: 16]:
+              Developed over 2,200 years ago by Greek mathematician Eratosthenes to list all prime numbers up to 100:
             </p>
             <ol style={{ color: "#cbd5e1", lineHeight: "1.6", paddingLeft: "20px", margin: "12px 0 0 0" }}>
-              <li>Cross out 1 (neither prime nor composite)[cite: 16].</li>
-              <li>Circle 2 (the first prime) and cross out all its multiples (4, 6, 8, 10...)[cite: 16].</li>
-              <li>Circle the next uncrossed number 3, then cross out all its multiples (6, 9, 12, 15...)[cite: 16].</li>
-              <li>Repeat for 5, 7, and subsequent uncrossed numbers until all numbers to 100 are circled or crossed[cite: 16].</li>
-              <li><strong>Twin Primes:</strong> Pairs of prime numbers with a difference of 2 (e.g., 3 & 5, 5 & 7, 11 & 13, 17 & 19, 29 & 31, 41 & 43, 59 & 61, 71 & 73)[cite: 16].</li>
+              <li>Cross out 1 (neither prime nor composite).</li>
+              <li>Circle 2 (the first prime) and cross out all its multiples (4, 6, 8, 10...).</li>
+              <li>Circle the next uncrossed number 3, then cross out all its multiples (6, 9, 12, 15...).</li>
+              <li>Repeat for 5, 7, and subsequent uncrossed numbers until all numbers to 100 are circled or crossed.</li>
+              <li><strong>Twin Primes:</strong> Pairs of prime numbers with a difference of 2 (e.g., 3 & 5, 5 & 7, 11 & 13, 17 & 19, 29 & 31, 41 & 43, 59 & 61, 71 & 73).</li>
             </ol>
           </div>
         </section>
@@ -246,33 +246,33 @@ export default function Chapter5Detail({ onBack }: Chapter5DetailProps) {
 
       {activeTab === 3 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 3: Co-Prime Numbers & Safe Pairs[cite: 16]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 3: Co-Prime Numbers & Safe Pairs</h2>
 
           <div style={{ marginBottom: "20px" }}>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Two numbers are co-prime if they have no common factor other than 1[cite: 16].
+              Two numbers are co-prime if they have no common factor other than 1.
             </p>
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>• Safe Pairs in Treasure Game[cite: 16]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>Safe Pairs in Treasure Game</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                If Grumpy places treasures on 4 and 9, Jumpy cannot reach both using any jump size other than 1[cite: 16]. Thus, (4, 9) is a safe co-prime pair[cite: 16].
+                If Grumpy places treasures on 4 and 9, Jumpy cannot reach both using any jump size other than 1. Thus, (4, 9) is a safe co-prime pair.
               </p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>• Key Co-Prime Property[cite: 16]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>Key Co-Prime Property</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                Whenever two numbers are co-prime, their first common multiple is equal to their product (e.g., for co-primes 4 and 9, First Common Multiple = 4 × 9 = 36)[cite: 16].
+                Whenever two numbers are co-prime, their first common multiple is equal to their product (e.g., for co-primes 4 and 9, First Common Multiple = 4 × 9 = 36).
               </p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>• Checking Co-Primeness[cite: 16]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>Checking Co-Primeness</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                (18, 35) are co-prime because factors of 18 are (1, 2, 3, 6, 9, 18) and 35 are (1, 5, 7, 35), and their common factor is only 1[cite: 16]. However, (15, 39) are NOT co-prime because 3 is a common factor[cite: 16].
+                (18, 35) are co-prime because factors of 18 are (1, 2, 3, 6, 9, 18) and 35 are (1, 5, 7, 35), and their common factor is only 1. However, (15, 39) are NOT co-prime because 3 is a common factor.
               </p>
             </div>
           </div>
@@ -281,40 +281,40 @@ export default function Chapter5Detail({ onBack }: Chapter5DetailProps) {
 
       {activeTab === 4 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 4: Prime Factorization & Unique Factorization Theorem[cite: 16]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 4: Prime Factorization & Unique Factorization Theorem</h2>
 
           <div style={{ marginBottom: "20px" }}>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Prime Factorization breaks down any composite number completely into a product of prime numbers[cite: 16]:
+              Prime Factorization breaks down any composite number completely into a product of prime numbers:
             </p>
           </div>
 
           <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px", marginBottom: "16px" }}>
-            <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>Example of Prime Factorization[cite: 16]</h3>
+            <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>Example of Prime Factorization</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: "4px 0" }}>
-              $56 = 4 \times 14 = (2 \times 2) \times (2 \times 7) = 2 \times 2 \times 2 \times 7$[cite: 16]
+              $56 = 4 \times 14 = (2 \times 2) \times (2 \times 7) = 2 \times 2 \times 2 \times 7$
             </p>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: "4px 0" }}>
-              $36 = 2 \times 2 \times 3 \times 3$ (regardless of whether you start with $2 \times 18$, $3 \times 12$, $4 \times 9$, or $6 \times 6$)[cite: 16].
+              $36 = 2 \times 2 \times 3 \times 3$ (regardless of whether you start with $2 \times 18$, $3 \times 12$, $4 \times 9$, or $6 \times 6$).
             </p>
           </div>
 
           <div style={{ background: "#065f46", border: "1px solid #34d399", padding: "16px", borderRadius: "8px", marginBottom: "16px" }}>
-            <strong style={{ color: "#d1fae5" }}>The Fundamental Fact:</strong> <span style={{ color: "#ecfdf5" }}>Every whole number greater than 1 has exactly ONE unique prime factorization, ignoring the order of factors[cite: 16].</span>
+            <strong style={{ color: "#d1fae5" }}>The Fundamental Fact:</strong> <span style={{ color: "#ecfdf5" }}>Every whole number greater than 1 has exactly ONE unique prime factorization, ignoring the order of factors.</span>
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>• Testing Co-Primeness via Primes[cite: 16]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>Testing Co-Primeness via Primes</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                If two numbers share NO common prime factor, they are co-prime! For 80 $(2 \times 2 \times 2 \times 2 \times 5)$ and 63 $(3 \times 3 \times 7)$, there are no common prime factors, so 80 and 63 are co-prime[cite: 16].
+                If two numbers share NO common prime factor, they are co-prime! For 80 $(2 \times 2 \times 2 \times 2 \times 5)$ and 63 $(3 \times 3 \times 7)$, there are no common prime factors, so 80 and 63 are co-prime.
               </p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>• Testing Divisibility via Primes[cite: 16]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>Testing Divisibility via Primes</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                A number A is divisible by B if the prime factorization of B is completely contained within the prime factorization of A[cite: 16]. Example: 168 $(2 \times 2 \times 2 \times 3 \times 7)$ is divisible by 24 $(2 \times 2 \times 2 \times 3)$ because three 2s and one 3 are present in 168[cite: 16].
+                A number A is divisible by B if the prime factorization of B is completely contained within the prime factorization of A. Example: 168 $(2 \times 2 \times 2 \times 3 \times 7)$ is divisible by 24 $(2 \times 2 \times 2 \times 3)$ because three 2s and one 3 are present in 168.
               </p>
             </div>
           </div>
@@ -323,64 +323,64 @@ export default function Chapter5Detail({ onBack }: Chapter5DetailProps) {
 
       {activeTab === 5 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 5: Divisibility Tests & Practice Vault[cite: 16, 17]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 5: Divisibility Tests & Practice Vault</h2>
 
-          <h3 style={{ color: "#f8fafc", fontSize: "1.1rem", marginBottom: "12px" }}>Divisibility Test Rules[cite: 16, 17]</h3>
+          <h3 style={{ color: "#f8fafc", fontSize: "1.1rem", marginBottom: "12px" }}>Divisibility Test Rules</h3>
           <div style={{ overflowX: "auto", marginBottom: "28px" }}>
             <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left", fontSize: "0.9rem" }}>
               <thead>
                 <tr style={{ background: "#1e293b", color: "#38bdf8", borderBottom: "2px solid #334155" }}>
-                  <th style={{ padding: "12px" }}>Divisor[cite: 16, 17]</th>
-                  <th style={{ padding: "12px" }}>Divisibility Test Rule[cite: 16, 17]</th>
-                  <th style={{ padding: "12px" }}>Example[cite: 16, 17]</th>
+                  <th style={{ padding: "12px" }}>Divisor</th>
+                  <th style={{ padding: "12px" }}>Divisibility Test Rule</th>
+                  <th style={{ padding: "12px" }}>Example</th>
                 </tr>
               </thead>
               <tbody style={{ color: "#cbd5e1" }}>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>10[cite: 16]</td>
-                  <td style={{ padding: "12px" }}>Units digit must be 0[cite: 16]</td>
-                  <td style={{ padding: "12px" }}>8,560 is divisible by 10[cite: 16]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>10</td>
+                  <td style={{ padding: "12px" }}>Units digit must be 0</td>
+                  <td style={{ padding: "12px" }}>8,560 is divisible by 10</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>5[cite: 16]</td>
-                  <td style={{ padding: "12px" }}>Units digit must be 0 or 5[cite: 16]</td>
-                  <td style={{ padding: "12px" }}>2,345 and 980 are divisible by 5[cite: 16]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>5</td>
+                  <td style={{ padding: "12px" }}>Units digit must be 0 or 5</td>
+                  <td style={{ padding: "12px" }}>2,345 and 980 are divisible by 5</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>2[cite: 17]</td>
-                  <td style={{ padding: "12px" }}>Units digit must be even (0, 2, 4, 6, 8)[cite: 17]</td>
-                  <td style={{ padding: "12px" }}>572 and 980 are divisible by 2[cite: 17]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>2</td>
+                  <td style={{ padding: "12px" }}>Units digit must be even (0, 2, 4, 6, 8)</td>
+                  <td style={{ padding: "12px" }}>572 and 980 are divisible by 2</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <h3 style={{ color: "#f8fafc", fontSize: "1.1rem", marginBottom: "16px" }}>Selected Practice Questions & Answers[cite: 17]</h3>
+          <h3 style={{ color: "#f8fafc", fontSize: "1.1rem", marginBottom: "16px" }}>Selected Practice Questions & Answers</h3>
           <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 8px 0" }}>
-                Q1: A number is less than 40. One of its factors is 7, and the sum of its digits is 8. Who is it?[cite: 17]
+                Q1: A number is less than 40. One of its factors is 7, and the sum of its digits is 8. Who is it?
               </h4>
               <div style={{ color: "#38bdf8", background: "#0f172a", padding: "12px", borderRadius: "6px", lineHeight: "1.6" }}>
-                <strong>Solution:</strong> Multiples of 7 less than 40 are 7, 14, 21, 28, 35. Checking digit sums: $3 + 5 = 8$. The number is <strong>35</strong>[cite: 17].
+                <strong>Solution:</strong> Multiples of 7 less than 40 are 7, 14, 21, 28, 35. Checking digit sums: $3 + 5 = 8$. The number is <strong>35</strong>.
               </div>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 8px 0" }}>
-                Q2: Find the smallest number that is a multiple of all numbers from 1 to 10.[cite: 17]
+                Q2: Find the smallest number that is a multiple of all numbers from 1 to 10.
               </h4>
               <div style={{ color: "#38bdf8", background: "#0f172a", padding: "12px", borderRadius: "6px", lineHeight: "1.6" }}>
-                <strong>Solution:</strong> Taking the highest powers of primes up to 10 ($2^3, 3^2, 5, 7$): $8 \times 9 \times 5 \times 7 =$ <strong>2,520</strong>[cite: 17].
+                <strong>Solution:</strong> Taking the highest powers of primes up to 10 ($2^3, 3^2, 5, 7$): $8 \times 9 \times 5 \times 7 =$ <strong>2,520</strong>.
               </div>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 8px 0" }}>
-                Q3: Can a 3-digit prime number be made using digits 2, 4, and 5 once each?[cite: 17]
+                Q3: Can a 3-digit prime number be made using digits 2, 4, and 5 once each?
               </h4>
               <div style={{ color: "#38bdf8", background: "#0f172a", padding: "12px", borderRadius: "6px", lineHeight: "1.6" }}>
-                <strong>Solution:</strong> Sum of digits = $2 + 4 + 5 = 11$. But any permutation ends in 2, 4, or 5 (even or multiple of 5). Thus, <strong>NO</strong> prime number can be formed[cite: 17].
+                <strong>Solution:</strong> Sum of digits = $2 + 4 + 5 = 11$. But any permutation ends in 2, 4, or 5 (even or multiple of 5). Thus, <strong>NO</strong> prime number can be formed.
               </div>
             </div>
           </div>

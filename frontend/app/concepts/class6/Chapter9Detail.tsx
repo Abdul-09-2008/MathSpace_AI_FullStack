@@ -64,7 +64,7 @@ export default function Chapter9Detail({ onBack }: Chapter9DetailProps) {
       >
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px" }}>
           <div style={{ fontSize: "0.8rem", color: "#38bdf8", fontWeight: "bold", letterSpacing: "1px" }}>
-            GANITA PRAKASH | CHAPTER 9: SYMMETRY[cite: 27]
+            GANITA PRAKASH | CHAPTER 9: SYMMETRY
           </div>
           <div style={{ fontSize: "0.85rem", color: "#38bdf8", fontWeight: "600" }}>
             {visitedModules.length} of {TOTAL_MODULES} Modules Explored
@@ -72,7 +72,7 @@ export default function Chapter9Detail({ onBack }: Chapter9DetailProps) {
         </div>
 
         <h1 style={{ fontSize: "2.25rem", margin: "8px 0 16px 0", color: "#ffffff" }}>
-          Chapter 9: Symmetry — Master Course Complete Reference[cite: 27]
+          Chapter 9: Symmetry — Master Course Complete Reference
         </h1>
 
         <ProgressBar percent={progressPercent} size="md" showLabel={false} />
@@ -89,7 +89,7 @@ export default function Chapter9Detail({ onBack }: Chapter9DetailProps) {
             marginTop: "20px",
           }}
         >
-          <strong style={{ color: "#f8fafc" }}>Course Overview:</strong> Welcome to Chapter 9: Symmetry! Symmetry is one of the most visual and harmonious concepts in mathematics, art, and nature[cite: 27]. In this master course, you will learn about Line Symmetry (mirror halves and folding axes), Rotational Symmetry (center and angle of rotation, order of rotation), and how balanced geometrical patterns appear in everyday objects, alphabets, architecture, and cultural designs like rangolis[cite: 27].
+          <strong style={{ color: "#f8fafc" }}>Course Overview:</strong> Welcome to Chapter 9: Symmetry! Symmetry is one of the most visual and harmonious concepts in mathematics, art, and nature. In this master course, you will learn about Line Symmetry (mirror halves and folding axes), Rotational Symmetry (center and angle of rotation, order of rotation), and how balanced geometrical patterns appear in everyday objects, alphabets, architecture, and cultural designs like rangolis.
         </div>
       </div>
 
@@ -148,69 +148,69 @@ export default function Chapter9Detail({ onBack }: Chapter9DetailProps) {
       {/* Module 1 View */}
       {activeTab === 1 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 1: Line Symmetry (Reflectional Symmetry)[cite: 27]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 1: Line Symmetry (Reflectional Symmetry)</h2>
           
           <div style={{ display: "flex", flexDirection: "column", gap: "16px", marginBottom: "24px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>1. What is Line Symmetry?[cite: 27]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>1. What is Line Symmetry?</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                A figure has line symmetry (or reflectional symmetry) if it can be folded along a straight line such that the two halves match each other completely and overlap perfectly[cite: 27]. The line along which the figure is folded is called the line of symmetry or axis of symmetry[cite: 27].
+                A figure has line symmetry (or reflectional symmetry) if it can be folded along a straight line such that the two halves match each other completely and overlap perfectly. The line along which the figure is folded is called the line of symmetry or axis of symmetry.
               </p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>2. Mirror Reflection & Inversion[cite: 27]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>2. Mirror Reflection & Inversion</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                When a shape or object is reflected across a line of symmetry, every point on one side corresponds to an identical point on the other side at the exact same distance from the axis[cite: 27]. In a flat mirror, this causes lateral inversion (left and right appear interchanged), while distances from the mirror line remain strictly equal[cite: 27].
+                When a shape or object is reflected across a line of symmetry, every point on one side corresponds to an identical point on the other side at the exact same distance from the axis. In a flat mirror, this causes lateral inversion (left and right appear interchanged), while distances from the mirror line remain strictly equal.
               </p>
             </div>
           </div>
 
-          <h3 style={{ color: "#f8fafc", fontSize: "1.15rem", marginBottom: "12px" }}>Lines of Symmetry for Standard Shapes[cite: 27]</h3>
+          <h3 style={{ color: "#f8fafc", fontSize: "1.15rem", marginBottom: "12px" }}>Lines of Symmetry for Standard Shapes</h3>
           <div style={{ overflowX: "auto" }}>
             <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left", fontSize: "0.9rem" }}>
               <thead>
                 <tr style={{ background: "#1e293b", color: "#38bdf8", borderBottom: "2px solid #334155" }}>
-                  <th style={{ padding: "12px" }}>Geometric Figure / Shape[cite: 27]</th>
-                  <th style={{ padding: "12px" }}>Number of Lines of Symmetry[cite: 27]</th>
-                  <th style={{ padding: "12px" }}>Description of Axes[cite: 27]</th>
+                  <th style={{ padding: "12px" }}>Geometric Figure / Shape</th>
+                  <th style={{ padding: "12px" }}>Number of Lines of Symmetry</th>
+                  <th style={{ padding: "12px" }}>Description of Axes</th>
                 </tr>
               </thead>
               <tbody style={{ color: "#cbd5e1" }}>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Isosceles Triangle[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>1[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>Line passing through the top vertex bisecting the base[cite: 27].</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Isosceles Triangle</td>
+                  <td style={{ padding: "12px" }}>1</td>
+                  <td style={{ padding: "12px" }}>Line passing through the top vertex bisecting the base.</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Equilateral Triangle[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>3[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>3 lines bisecting each angle and opposite side[cite: 27].</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Equilateral Triangle</td>
+                  <td style={{ padding: "12px" }}>3</td>
+                  <td style={{ padding: "12px" }}>3 lines bisecting each angle and opposite side.</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Rectangle[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>2[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>Horizontal and vertical lines passing through the center[cite: 27].</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Rectangle</td>
+                  <td style={{ padding: "12px" }}>2</td>
+                  <td style={{ padding: "12px" }}>Horizontal and vertical lines passing through the center.</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Square[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>4[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>2 mid-side lines + 2 diagonal lines[cite: 27].</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Square</td>
+                  <td style={{ padding: "12px" }}>4</td>
+                  <td style={{ padding: "12px" }}>2 mid-side lines + 2 diagonal lines.</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Regular Pentagon[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>5[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>5 lines connecting each vertex to the opposite side's midpoint[cite: 27].</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Regular Pentagon</td>
+                  <td style={{ padding: "12px" }}>5</td>
+                  <td style={{ padding: "12px" }}>5 lines connecting each vertex to the opposite side's midpoint.</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Regular Hexagon[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>6[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>3 main diagonals + 3 lines joining opposite side midpoints[cite: 27].</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Regular Hexagon</td>
+                  <td style={{ padding: "12px" }}>6</td>
+                  <td style={{ padding: "12px" }}>3 main diagonals + 3 lines joining opposite side midpoints.</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Circle[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>Infinite (Uncountable)[cite: 27]</td>
-                  <td style={{ padding: "12px" }}>Any straight line passing through the circle's center[cite: 27].</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Circle</td>
+                  <td style={{ padding: "12px" }}>Infinite (Uncountable)</td>
+                  <td style={{ padding: "12px" }}>Any straight line passing through the circle's center.</td>
                 </tr>
               </tbody>
             </table>
@@ -221,42 +221,42 @@ export default function Chapter9Detail({ onBack }: Chapter9DetailProps) {
       {/* Module 2 View */}
       {activeTab === 2 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 2: Symmetry in English Capital Letters[cite: 27, 28]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 2: Symmetry in English Capital Letters</h2>
           <p style={{ color: "#cbd5e1", lineHeight: "1.6", marginBottom: "20px" }}>
-            English capital letters provide wonderful examples of vertical, horizontal, and dual line symmetry[cite: 27]:
+            English capital letters provide wonderful examples of vertical, horizontal, and dual line symmetry:
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>1. Vertical Line of Symmetry Only[cite: 27, 28]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>1. Vertical Line of Symmetry Only</h3>
               <p style={{ color: "#38bdf8", fontSize: "1.1rem", fontWeight: "bold", margin: "8px 0" }}>
-                A, M, T, U, V, W, Y[cite: 27, 28]
+                A, M, T, U, V, W, Y
               </p>
-              <p style={{ color: "#cbd5e1", margin: 0, fontSize: "0.9rem" }}>Folding left to right matches perfectly[cite: 27].</p>
+              <p style={{ color: "#cbd5e1", margin: 0, fontSize: "0.9rem" }}>Folding left to right matches perfectly.</p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>2. Horizontal Line of Symmetry Only[cite: 27, 28]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>2. Horizontal Line of Symmetry Only</h3>
               <p style={{ color: "#38bdf8", fontSize: "1.1rem", fontWeight: "bold", margin: "8px 0" }}>
-                B, C, D, E, K[cite: 27, 28]
+                B, C, D, E, K
               </p>
-              <p style={{ color: "#cbd5e1", margin: 0, fontSize: "0.9rem" }}>Folding top to bottom matches perfectly[cite: 27].</p>
+              <p style={{ color: "#cbd5e1", margin: 0, fontSize: "0.9rem" }}>Folding top to bottom matches perfectly.</p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>3. Both Vertical & Horizontal Symmetry[cite: 27, 28]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>3. Both Vertical & Horizontal Symmetry</h3>
               <p style={{ color: "#38bdf8", fontSize: "1.1rem", fontWeight: "bold", margin: "8px 0" }}>
-                H, I, O, X[cite: 27, 28]
+                H, I, O, X
               </p>
-              <p style={{ color: "#cbd5e1", margin: 0, fontSize: "0.9rem" }}>Contain two perpendicular axes of symmetry[cite: 27].</p>
+              <p style={{ color: "#cbd5e1", margin: 0, fontSize: "0.9rem" }}>Contain two perpendicular axes of symmetry.</p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>4. No Line of Symmetry[cite: 28]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>4. No Line of Symmetry</h3>
               <p style={{ color: "#f87171", fontSize: "1.1rem", fontWeight: "bold", margin: "8px 0" }}>
-                F, G, J, L, N, P, Q, R, S, Z[cite: 28]
+                F, G, J, L, N, P, Q, R, S, Z
               </p>
-              <p style={{ color: "#cbd5e1", margin: 0, fontSize: "0.9rem" }}>Possess no lines of reflectional symmetry[cite: 28].</p>
+              <p style={{ color: "#cbd5e1", margin: 0, fontSize: "0.9rem" }}>Possess no lines of reflectional symmetry.</p>
             </div>
           </div>
         </section>
@@ -265,74 +265,74 @@ export default function Chapter9Detail({ onBack }: Chapter9DetailProps) {
       {/* Module 3 View */}
       {activeTab === 3 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 3: Rotational Symmetry[cite: 28]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 3: Rotational Symmetry</h2>
           
           <div style={{ display: "flex", flexDirection: "column", gap: "16px", marginBottom: "24px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>1. What is Rotational Symmetry?[cite: 28]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>1. What is Rotational Symmetry?</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                A shape has rotational symmetry if it can be rotated around a fixed central point by an angle less than 360° such that it looks exactly identical to its original position[cite: 28].
+                A shape has rotational symmetry if it can be rotated around a fixed central point by an angle less than 360° such that it looks exactly identical to its original position.
               </p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>2. Key Concepts & Formula[cite: 28]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>2. Key Concepts & Formula</h3>
               <ul style={{ color: "#cbd5e1", lineHeight: "1.6", paddingLeft: "20px", margin: "8px 0 0 0" }}>
-                <li><strong style={{ color: "#f8fafc" }}>Centre of Rotation:</strong> The fixed point around which the shape turns[cite: 28].</li>
-                <li><strong style={{ color: "#f8fafc" }}>Angle of Rotation:</strong> The minimum angle required for the shape to fit onto its original outline during rotation[cite: 28].</li>
-                <li><strong style={{ color: "#f8fafc" }}>Order of Rotational Symmetry:</strong> The total number of times the shape matches its original appearance during one complete 360° turn[cite: 28].</li>
-                <li><strong style={{ color: "#38bdf8" }}>Formula:</strong> Order of Rotational Symmetry = 360° / Angle of Rotation[cite: 28].</li>
+                <li><strong style={{ color: "#f8fafc" }}>Centre of Rotation:</strong> The fixed point around which the shape turns.</li>
+                <li><strong style={{ color: "#f8fafc" }}>Angle of Rotation:</strong> The minimum angle required for the shape to fit onto its original outline during rotation.</li>
+                <li><strong style={{ color: "#f8fafc" }}>Order of Rotational Symmetry:</strong> The total number of times the shape matches its original appearance during one complete 360° turn.</li>
+                <li><strong style={{ color: "#38bdf8" }}>Formula:</strong> Order of Rotational Symmetry = 360° / Angle of Rotation.</li>
               </ul>
             </div>
           </div>
 
-          <h3 style={{ color: "#f8fafc", fontSize: "1.15rem", marginBottom: "12px" }}>Rotational Symmetry Table[cite: 28]</h3>
+          <h3 style={{ color: "#f8fafc", fontSize: "1.15rem", marginBottom: "12px" }}>Rotational Symmetry Table</h3>
           <div style={{ overflowX: "auto" }}>
             <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left", fontSize: "0.9rem" }}>
               <thead>
                 <tr style={{ background: "#1e293b", color: "#38bdf8", borderBottom: "2px solid #334155" }}>
-                  <th style={{ padding: "12px" }}>Shape / Object[cite: 28]</th>
-                  <th style={{ padding: "12px" }}>Centre of Rotation[cite: 28]</th>
-                  <th style={{ padding: "12px" }}>Angle of Rotation[cite: 28]</th>
-                  <th style={{ padding: "12px" }}>Order of Rotation[cite: 28]</th>
+                  <th style={{ padding: "12px" }}>Shape / Object</th>
+                  <th style={{ padding: "12px" }}>Centre of Rotation</th>
+                  <th style={{ padding: "12px" }}>Angle of Rotation</th>
+                  <th style={{ padding: "12px" }}>Order of Rotation</th>
                 </tr>
               </thead>
               <tbody style={{ color: "#cbd5e1" }}>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Equilateral Triangle[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>Centroid / Center[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>120°[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>3[cite: 28]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Equilateral Triangle</td>
+                  <td style={{ padding: "12px" }}>Centroid / Center</td>
+                  <td style={{ padding: "12px" }}>120°</td>
+                  <td style={{ padding: "12px" }}>3</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Square[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>Intersection of Diagonals[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>90°[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>4[cite: 28]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Square</td>
+                  <td style={{ padding: "12px" }}>Intersection of Diagonals</td>
+                  <td style={{ padding: "12px" }}>90°</td>
+                  <td style={{ padding: "12px" }}>4</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Regular Pentagon[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>Center of Polygon[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>72°[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>5[cite: 28]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Regular Pentagon</td>
+                  <td style={{ padding: "12px" }}>Center of Polygon</td>
+                  <td style={{ padding: "12px" }}>72°</td>
+                  <td style={{ padding: "12px" }}>5</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Regular Hexagon[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>Center of Polygon[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>60°[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>6[cite: 28]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Regular Hexagon</td>
+                  <td style={{ padding: "12px" }}>Center of Polygon</td>
+                  <td style={{ padding: "12px" }}>60°</td>
+                  <td style={{ padding: "12px" }}>6</td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #23272f" }}>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>3-Blade Ceiling Fan[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>Central Motor Axis[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>120°[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>3[cite: 28]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>3-Blade Ceiling Fan</td>
+                  <td style={{ padding: "12px" }}>Central Motor Axis</td>
+                  <td style={{ padding: "12px" }}>120°</td>
+                  <td style={{ padding: "12px" }}>3</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Circle[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>Center of Circle[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>Any angle (0° to 360°)[cite: 28]</td>
-                  <td style={{ padding: "12px" }}>Infinite[cite: 28]</td>
+                  <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Circle</td>
+                  <td style={{ padding: "12px" }}>Center of Circle</td>
+                  <td style={{ padding: "12px" }}>Any angle (0° to 360°)</td>
+                  <td style={{ padding: "12px" }}>Infinite</td>
                 </tr>
               </tbody>
             </table>
@@ -343,30 +343,30 @@ export default function Chapter9Detail({ onBack }: Chapter9DetailProps) {
       {/* Module 4 View */}
       {activeTab === 4 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 4: Symmetry in Art, Architecture & Nature[cite: 28]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 4: Symmetry in Art, Architecture & Nature</h2>
           <p style={{ color: "#cbd5e1", lineHeight: "1.6", marginBottom: "20px" }}>
-            Symmetry is not just a mathematical concept—it is a cornerstone of artistic beauty and natural design[cite: 28]:
+            Symmetry is not just a mathematical concept—it is a cornerstone of artistic beauty and natural design:
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>1. Rangoli & Mandala Patterns[cite: 28]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>1. Rangoli & Mandala Patterns</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                Traditional floor designs combine both multiple lines of symmetry and rotational symmetry around a central dot grid[cite: 28].
+                Traditional floor designs combine both multiple lines of symmetry and rotational symmetry around a central dot grid.
               </p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>2. Nature[cite: 28]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>2. Nature</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                Butterfly wings, starfish, flowers (like sunflowers and lilies), and snowflakes showcase breathtaking bilateral and radial symmetry[cite: 28].
+                Butterfly wings, starfish, flowers (like sunflowers and lilies), and snowflakes showcase breathtaking bilateral and radial symmetry.
               </p>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "16px", borderRadius: "8px" }}>
-              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>3. Architecture[cite: 28]</h3>
+              <h3 style={{ color: "#f8fafc", fontSize: "1.05rem", marginTop: 0 }}>3. Architecture</h3>
               <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-                Famous historical monuments like the Taj Mahal in Agra utilize strict bilateral symmetry in their facades and gardens to create balance and grandeur[cite: 28].
+                Famous historical monuments like the Taj Mahal in Agra utilize strict bilateral symmetry in their facades and gardens to create balance and grandeur.
               </p>
             </div>
           </div>
@@ -376,36 +376,36 @@ export default function Chapter9Detail({ onBack }: Chapter9DetailProps) {
       {/* Module 5 View */}
       {activeTab === 5 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 5: Practice & Exercise Vault[cite: 28, 29]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 5: Practice & Exercise Vault</h2>
           <p style={{ color: "#94a3b8", fontSize: "0.875rem", marginBottom: "20px" }}>
-            Directly sourced from Chapter 9 exercise materials[cite: 28, 29]:
+            Directly sourced from Chapter 9 exercise materials:
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 8px 0" }}>
-                Question 1: A square paper is folded in half along its diagonal. How many lines of symmetry does the resulting isosceles right-angled triangle have?[cite: 28]
+                Question 1: A square paper is folded in half along its diagonal. How many lines of symmetry does the resulting isosceles right-angled triangle have?
               </h4>
               <div style={{ color: "#38bdf8", background: "#0f172a", padding: "12px", borderRadius: "6px", lineHeight: "1.6" }}>
-                <strong>Solution:</strong> An isosceles right-angled triangle has two equal legs. It has <strong>1 line of symmetry</strong> passing from the right-angled vertex to the midpoint of the hypotenuse[cite: 28, 29].
+                <strong>Solution:</strong> An isosceles right-angled triangle has two equal legs. It has <strong>1 line of symmetry</strong> passing from the right-angled vertex to the midpoint of the hypotenuse.
               </div>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 8px 0" }}>
-                Question 2: Can a shape have rotational symmetry of order 1? What does order 1 mean?[cite: 29]
+                Question 2: Can a shape have rotational symmetry of order 1? What does order 1 mean?
               </h4>
               <div style={{ color: "#38bdf8", background: "#0f172a", padding: "12px", borderRadius: "6px", lineHeight: "1.6" }}>
-                <strong>Solution:</strong> Every shape completes a full 360° turn to return to its original position. Having an order of 1 means it only looks identical after a full 360° rotation (it possesses no special rotational symmetry)[cite: 29].
+                <strong>Solution:</strong> Every shape completes a full 360° turn to return to its original position. Having an order of 1 means it only looks identical after a full 360° rotation (it possesses no special rotational symmetry).
               </div>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 8px 0" }}>
-                Question 3: Name a shape that has both 4 lines of symmetry and rotational symmetry of order 4.[cite: 29]
+                Question 3: Name a shape that has both 4 lines of symmetry and rotational symmetry of order 4.
               </h4>
               <div style={{ color: "#38bdf8", background: "#0f172a", padding: "12px", borderRadius: "6px", lineHeight: "1.6" }}>
-                <strong>Solution:</strong> <strong>A Square!</strong> It has 4 lines of symmetry and an angle of rotation of 90°, giving it a rotational symmetry order of 4[cite: 29].
+                <strong>Solution:</strong> <strong>A Square!</strong> It has 4 lines of symmetry and an angle of rotation of 90°, giving it a rotational symmetry order of 4.
               </div>
             </div>
           </div>

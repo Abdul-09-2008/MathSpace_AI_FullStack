@@ -64,7 +64,7 @@ export default function Chapter3Detail({ onBack }: Chapter3DetailProps) {
       >
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px" }}>
           <div style={{ fontSize: "0.8rem", color: "#38bdf8", fontWeight: "bold", letterSpacing: "1px" }}>
-            GANITA PRAKASH CLASS 6 COURSE: CHAPTER 3[cite: 10]
+            GANITA PRAKASH CLASS 6 COURSE: CHAPTER 3
           </div>
           <div style={{ fontSize: "0.85rem", color: "#38bdf8", fontWeight: "600" }}>
             {visitedModules.length} of {TOTAL_MODULES} Modules Explored
@@ -72,7 +72,7 @@ export default function Chapter3Detail({ onBack }: Chapter3DetailProps) {
         </div>
 
         <h1 style={{ fontSize: "2.25rem", margin: "8px 0 16px 0", color: "#ffffff" }}>
-          Chapter 3: Number Play - Complete Master Guide[cite: 10]
+          Chapter 3: Number Play - Complete Master Guide
         </h1>
 
         <ProgressBar percent={progressPercent} size="md" showLabel={false} />
@@ -89,7 +89,7 @@ export default function Chapter3Detail({ onBack }: Chapter3DetailProps) {
             marginTop: "20px",
           }}
         >
-          <strong style={{ color: "#f8fafc" }}>Welcome to Chapter 3: Number Play!</strong> In this chapter, we explore mathematics not through boring calculation rules, but through fun visual puzzles, digit secrets, palindromes, sub-routines, and winning game strategies[cite: 10].
+          <strong style={{ color: "#f8fafc" }}>Welcome to Chapter 3: Number Play!</strong> In this chapter, we explore mathematics not through boring calculation rules, but through fun visual puzzles, digit secrets, palindromes, sub-routines, and winning game strategies.
         </div>
       </div>
 
@@ -149,19 +149,19 @@ export default function Chapter3Detail({ onBack }: Chapter3DetailProps) {
       {/* Module Content Views */}
       {activeTab === 1 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 1: Positional Puzzles & Supercells[cite: 10]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 1: Positional Puzzles & Supercells</h2>
           
           <div style={{ marginBottom: "24px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>1. Relative Heights & Positional Context</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Numbers express information depending on rules[cite: 10]. When children stand in a line, each child shouts out a number based on their neighbors' heights: '1' if exactly one neighbor is taller, '2' if both neighbors are taller, and '0' if neither neighbor is taller[cite: 10]. In a group of 5 children, at most 2 children can say '2' (e.g. pattern 0, 2, 0, 2, 0)[cite: 10].
+              Numbers express information depending on rules. When children stand in a line, each child shouts out a number based on their neighbors heights: '1' if exactly one neighbor is taller, '2' if both neighbors are taller, and '0' if neither neighbor is taller. In a group of 5 children, at most 2 children can say '2' (e.g. pattern 0, 2, 0, 2, 0).
             </p>
           </div>
 
           <div style={{ marginTop: "24px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>2. Supercells in Grids</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              A cell in a number table is called a supercell if the number inside it is strictly greater than all of its adjacent neighboring cells (left, right, top, bottom)[cite: 10].
+              A cell in a number table is called a supercell if the number inside it is strictly greater than all of its adjacent neighboring cells (left, right, top, bottom).
             </p>
 
             <div style={{ overflowX: "auto", marginTop: "16px" }}>
@@ -175,19 +175,19 @@ export default function Chapter3Detail({ onBack }: Chapter3DetailProps) {
                 <tbody style={{ color: "#cbd5e1" }}>
                   <tr style={{ borderBottom: "1px solid #23272f" }}>
                     <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Largest Number Rule</td>
-                    <td style={{ padding: "12px" }}>The cell with the largest number in any grid will ALWAYS be a supercell because no neighbor can exceed it[cite: 10].</td>
+                    <td style={{ padding: "12px" }}>The cell with the largest number in any grid will ALWAYS be a supercell because no neighbor can exceed it.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid #23272f" }}>
                     <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Smallest Number Rule</td>
-                    <td style={{ padding: "12px" }}>The cell with the smallest number in a grid can NEVER be a supercell because its neighbors are larger[cite: 10].</td>
+                    <td style={{ padding: "12px" }}>The cell with the smallest number in a grid can NEVER be a supercell because its neighbors are larger.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid #23272f" }}>
                     <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>1D Max Supercells</td>
-                    <td style={{ padding: "12px" }}>For N cells in a row, max supercells = N/2 (if N is even) or (N+1)/2 (if N is odd)[cite: 10].</td>
+                    <td style={{ padding: "12px" }}>For N cells in a row, max supercells = N/2 (if N is even) or (N+1)/2 (if N is odd).</td>
                   </tr>
                   <tr>
                     <td style={{ padding: "12px", fontWeight: "bold", color: "#ffffff" }}>Strategy for Max Supercells</td>
-                    <td style={{ padding: "12px" }}>Fill the first cell as a supercell, then alternate supercells in every second position[cite: 10].</td>
+                    <td style={{ padding: "12px" }}>Fill the first cell as a supercell, then alternate supercells in every second position.</td>
                   </tr>
                 </tbody>
               </table>
@@ -198,28 +198,28 @@ export default function Chapter3Detail({ onBack }: Chapter3DetailProps) {
 
       {activeTab === 2 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 2: Digit Patterns & Digit Sums[cite: 10]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 2: Digit Patterns & Digit Sums</h2>
 
           <div style={{ marginBottom: "24px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>1. Digit Frequency</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              In writing numbers from 1 to 100, the digit '7' appears exactly 20 times[cite: 10]. From 1 to 1000, it appears 300 times[cite: 10].
+              In writing numbers from 1 to 100, the digit '7' appears exactly 20 times. From 1 to 1000, it appears 300 times.
             </p>
           </div>
 
           <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem", marginTop: 0 }}>2. Consecutive 3-Digit Sums</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Taking any 3-digit number with consecutive digits (e.g., 123, 234, 345, 456), their digit sums follow a clear pattern[cite: 10]:
+              Taking any 3-digit number with consecutive digits (e.g., 123, 234, 345, 456), their digit sums follow a clear pattern:
             </p>
             <ul style={{ color: "#cbd5e1", lineHeight: "1.6", paddingLeft: "20px" }}>
-              <li>1 + 2 + 3 = 6[cite: 10]</li>
-              <li>2 + 3 + 4 = 9[cite: 10]</li>
-              <li>3 + 4 + 5 = 12[cite: 10]</li>
-              <li>4 + 5 + 6 = 15[cite: 10]</li>
+              <li>1 + 2 + 3 = 6</li>
+              <li>2 + 3 + 4 = 9</li>
+              <li>3 + 4 + 5 = 12</li>
+              <li>4 + 5 + 6 = 15</li>
             </ul>
             <p style={{ color: "#38bdf8", fontWeight: "500", marginTop: "12px" }}>
-              Notice that every sum is a multiple of 3![cite: 10]
+              Notice that every sum is a multiple of 3!
             </p>
           </div>
         </section>
@@ -227,29 +227,29 @@ export default function Chapter3Detail({ onBack }: Chapter3DetailProps) {
 
       {activeTab === 3 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 3: Pretty Palindromes & Reverse-and-Add[cite: 10, 11]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 3: Pretty Palindromes & Reverse-and-Add</h2>
 
           <div style={{ marginBottom: "24px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>1. Palindromic Numbers</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              A palindrome reads identically forward and backward (e.g. 66, 848, 575, 1111)[cite: 10].
+              A palindrome reads identically forward and backward (e.g. 66, 848, 575, 1111).
             </p>
           </div>
 
           <div style={{ marginBottom: "24px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>2. Reverse and Add Sub-routine</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Pick a 2-digit number, reverse its digits, and add. Repeat until you reach a palindrome![cite: 10] Example: 47 + 74 = 121 (palindrome in 1 step)[cite: 10].
+              Pick a 2-digit number, reverse its digits, and add. Repeat until you reach a palindrome! Example: 47 + 74 = 121 (palindrome in 1 step).
             </p>
             <div style={{ background: "#451a03", border: "1px solid #f59e0b", padding: "12px 16px", borderRadius: "8px", marginTop: "12px" }}>
-              <strong style={{ color: "#fef08a" }}>Historical note:</strong> <span style={{ color: "#fde68a" }}>196 is suspected never to form a palindrome![cite: 10, 11]</span>
+              <strong style={{ color: "#fef08a" }}>Historical note:</strong> <span style={{ color: "#fde68a" }}>196 is suspected never to form a palindrome!</span>
             </div>
           </div>
 
           <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem", marginTop: 0 }}>3. Clock & Calendar Palindromes</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6", margin: 0 }}>
-              Clock times like 10:01, 12:21, 05:50 and dates like 20/02/2002 or 20/12/2012 are palindromic[cite: 11].
+              Clock times like 10:01, 12:21, 05:50 and dates like 20/02/2002 or 20/12/2012 are palindromic.
             </p>
           </div>
         </section>
@@ -257,47 +257,47 @@ export default function Chapter3Detail({ onBack }: Chapter3DetailProps) {
 
       {activeTab === 4 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 4: Kaprekar's Magic Constant (6174 & 495)[cite: 11]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 4: Kaprekar's Magic Constant (6174 & 495)</h2>
           <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-            In 1949, Indian math teacher D.R. Kaprekar (Devlali, Maharashtra) discovered a remarkable routine for 4-digit numbers with at least two different digits[cite: 11]:
+            In 1949, Indian math teacher D.R. Kaprekar (Devlali, Maharashtra) discovered a remarkable routine for 4-digit numbers with at least two different digits:
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginTop: "16px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "12px 16px", borderRadius: "8px", color: "#cbd5e1" }}>
-              <strong style={{ color: "#38bdf8" }}>Step 1:</strong> Arrange digits in descending order (largest number)[cite: 11].
+              <strong style={{ color: "#38bdf8" }}>Step 1:</strong> Arrange digits in descending order (largest number).
             </div>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "12px 16px", borderRadius: "8px", color: "#cbd5e1" }}>
-              <strong style={{ color: "#38bdf8" }}>Step 2:</strong> Arrange digits in ascending order (smallest number)[cite: 11].
+              <strong style={{ color: "#38bdf8" }}>Step 2:</strong> Arrange digits in ascending order (smallest number).
             </div>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "12px 16px", borderRadius: "8px", color: "#cbd5e1" }}>
-              <strong style={{ color: "#38bdf8" }}>Step 3:</strong> Subtract smallest from largest[cite: 11].
+              <strong style={{ color: "#38bdf8" }}>Step 3:</strong> Subtract smallest from largest.
             </div>
             <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "12px 16px", borderRadius: "8px", color: "#cbd5e1" }}>
-              <strong style={{ color: "#38bdf8" }}>Step 4:</strong> Repeat the routine with the result[cite: 11].
+              <strong style={{ color: "#38bdf8" }}>Step 4:</strong> Repeat the routine with the result.
             </div>
           </div>
 
           <div style={{ background: "#065f46", border: "1px solid #34d399", padding: "16px", borderRadius: "8px", marginTop: "20px" }}>
-            <strong style={{ color: "#d1fae5" }}>The Kaprekar Constant:</strong> <span style={{ color: "#ecfdf5" }}>You will ALWAYS reach 6174 in at most 8 steps! For 3-digit numbers, repeating this routine always reaches 495[cite: 11].</span>
+            <strong style={{ color: "#d1fae5" }}>The Kaprekar Constant:</strong> <span style={{ color: "#ecfdf5" }}>You will ALWAYS reach 6174 in at most 8 steps! For 3-digit numbers, repeating this routine always reaches 495.</span>
           </div>
         </section>
       )}
 
       {activeTab === 5 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 5: Game 21 & Winning Strategies[cite: 11]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 5: Game 21 & Winning Strategies</h2>
           
           <div style={{ marginBottom: "20px" }}>
             <h3 style={{ color: "#f8fafc", fontSize: "1.1rem" }}>Rules of Game 21</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              Two players take turns saying numbers[cite: 11]. The first player says 1, 2, or 3[cite: 11]. Each turn, a player adds 1, 2, or 3 to the previous total[cite: 11]. The player who hits 21 wins![cite: 11]
+              Two players take turns saying numbers. The first player says 1, 2, or 3. Each turn, a player adds 1, 2, or 3 to the previous total. The player who hits 21 wins!
             </p>
           </div>
 
           <div style={{ background: "#1a1d24", border: "1px solid #334155", padding: "20px", borderRadius: "8px" }}>
             <h3 style={{ color: "#38bdf8", fontSize: "1.1rem", marginTop: 0 }}>Winning Strategy</h3>
             <p style={{ color: "#cbd5e1", lineHeight: "1.6" }}>
-              To guarantee a win, control key target numbers that are multiples of 4: <strong>1, 5, 9, 13, 17, 21</strong>[cite: 11]. If player 1 starts by saying 1, player 1 can always force a win by keeping the running total on these target numbers![cite: 11]
+              To guarantee a win, control key target numbers that are multiples of 4: <strong>1, 5, 9, 13, 17, 21</strong>. If player 1 starts by saying 1, player 1 can always force a win by keeping the running total on these target numbers!
             </p>
           </div>
         </section>
@@ -305,45 +305,45 @@ export default function Chapter3Detail({ onBack }: Chapter3DetailProps) {
 
       {activeTab === 6 && (
         <section style={{ background: "#121417", border: "1px solid #23272f", padding: "28px", borderRadius: "12px" }}>
-          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 6: Practice & Exercise Vault[cite: 11]</h2>
+          <h2 style={{ color: "#38bdf8", marginTop: 0 }}>Module 6: Practice & Exercise Vault</h2>
           <p style={{ color: "#cbd5e1", lineHeight: "1.6", marginBottom: "20px" }}>
-            Review textbook questions and step-by-step solutions for Chapter 3[cite: 11]:
+            Review textbook questions and step-by-step solutions for Chapter 3:
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             <div style={{ background: "#1a1d24", border: "1px solid #23272f", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 8px 0" }}>
-                Q1: How many times does the digit '7' occur between 1 and 100?[cite: 11]
+                Q1: How many times does the digit '7' occur between 1 and 100?
               </h4>
               <div style={{ color: "#38bdf8", background: "#0f172a", padding: "12px", borderRadius: "6px" }}>
-                <strong>Answer:</strong> 20 times[cite: 11].
+                <strong>Answer:</strong> 20 times.
               </div>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #23272f", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 8px 0" }}>
-                Q2: What is the Kaprekar constant for 3-digit numbers?[cite: 11]
+                Q2: What is the Kaprekar constant for 3-digit numbers?
               </h4>
               <div style={{ color: "#38bdf8", background: "#0f172a", padding: "12px", borderRadius: "6px" }}>
-                <strong>Answer:</strong> 495[cite: 11].
+                <strong>Answer:</strong> 495.
               </div>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #23272f", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 8px 0" }}>
-                Q3: Solve the Puzzle: I am a 5-digit odd palindrome. 't' digit is double 'u' digit. 'h' digit is double 't' digit. 'th' digit is 't'. 'tth' digit is 'u'. Who am I?[cite: 11]
+                Q3: Solve the Puzzle: I am a 5-digit odd palindrome. 't' digit is double 'u' digit. 'h' digit is double 't' digit. 'th' digit is 't'. 'tth' digit is 'u'. Who am I?
               </h4>
               <div style={{ color: "#38bdf8", background: "#0f172a", padding: "12px", borderRadius: "6px", lineHeight: "1.6" }}>
-                <strong>Answer:</strong> Let u = 1. Then t = 2, h = 4, th = 2, tth = 1[cite: 11]. The number is <strong>12,421</strong>[cite: 11].
+                <strong>Answer:</strong> Let u = 1. Then t = 2, h = 4, th = 2, tth = 1. The number is <strong>12,421</strong>.
               </div>
             </div>
 
             <div style={{ background: "#1a1d24", border: "1px solid #23272f", padding: "20px", borderRadius: "8px" }}>
               <h4 style={{ color: "#f8fafc", margin: "0 0 8px 0" }}>
-                Q4: If a clock shows 10:01, how many minutes until the next palindromic time?[cite: 11]
+                Q4: If a clock shows 10:01, how many minutes until the next palindromic time?
               </h4>
               <div style={{ color: "#38bdf8", background: "#0f172a", padding: "12px", borderRadius: "6px", lineHeight: "1.6" }}>
-                <strong>Answer:</strong> The next palindromic time is 11:11[cite: 11]. From 10:01 to 11:11 is <strong>70 minutes</strong>[cite: 11].
+                <strong>Answer:</strong> The next palindromic time is 11:11. From 10:01 to 11:11 is <strong>70 minutes</strong>.
               </div>
             </div>
           </div>
